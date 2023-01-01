@@ -1,0 +1,129 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position:relative;
+    width: auto;
+    height:20vh;
+    background: rgb(55, 55, 45);
+    color: white;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 15px;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0 ;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    padding-top: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.ninjaken img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px ;
+}
+
+.ninjaken h1 {
+    padding-top: 50px;
+    color: rgb(55, 55, 55);
+    font-size: 80px;
+}
+
+.ninjaken span {
+    color: orange;
+}
+
+.tentang {
+    background-color:rgb(227, 227, 220);
+    padding: 80px 0 80px 0;
+}
+
+.tentang h1 {
+    color: rgb(55, 55, 55);
+    text-align: center;
+}
+
+.tentang p {
+    color: rgb(55, 55, 55);
+    text-align: center;
+}
+
+.gambar {
+    padding: 100px 0 50px 0;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.proyek {
+    color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.gambar img {
+    padding-left: 120px;
+    padding-right: 80px;
+    align-items: center;
+}
+
+.hubungi h1 {
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hubungi {
+    padding: 30px 50px 30px 50px;
+    background-color:rgba(245, 245, 220, 0.461);
+    justify-content: center;
+
+}
+
+.hubungi input {
+    width: 30%;
+    margin: auto;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    padding: 9px 50px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer  {
+    background-color: rgb(55, 55, 55);
+}
+
+.footer nav ul li {
+    display: grid;
+}
